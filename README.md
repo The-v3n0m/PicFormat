@@ -9,9 +9,27 @@ To use:
 ```bash
 git clone https://github.com/The-v3n0m/PicFormat.git
 ```
+2. Create a Virtual Environment
 
-2. Run the tool
+```bash
+python3 -m venv venv
+```
+
+3. Enter that virtual environmnet 
+
+```bash
+.\venv\Scripts\activate
+```
+
+4. Install Pillow
+
+```bash
+pip install pillow
+```
+
+5. Run the tool
 
 ```bash
 ./PicFormat.py infile outfile
 ```
+
